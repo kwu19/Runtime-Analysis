@@ -1,8 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+In the previous program, I create two lists to store my time of del operator on dictionary and list.
+We can see that Dict < List is true, so that the time for del operator on dictionary is smaller than time we need on list.
 
-This is a temporary script file.
+From running the code above, we can see that the time of delete from both dictionary and list are different. 
+And the time for dictionary is much smaller than the time for list. For the program I wrote, 
+I chose 5000 times for convenience, since large number will cause more running time. However, 
+I tried to delete 10000 times, and the results are much clearer. 
+The result for deleting 1000000 goes like this: 0.17455267498735338 seconds for dictionary 
+and 162.49849915600498 seconds for list.
+
+@author: Kefei Wu
 """
 
 import timeit
