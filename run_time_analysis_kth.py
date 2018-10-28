@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 28 16:48:45 2018
+The runtime of our algorithm depends on our choice of pivot. 
+In the best-case, if we pick a pivot that ends up at position k, the runtime is O(n). 
+In the worst case, we pick always pick pivot that is the minimum or maximum value in the array. 
+The runtime is T(n) = T(n-1) + O(n).
 
-@author: kefei
+@author: Kefei Wu
 """
 
 import random
